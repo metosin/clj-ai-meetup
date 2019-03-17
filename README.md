@@ -25,6 +25,10 @@ We will investigate General Problem Solver (GPS) in the session. We will impleme
 
 Our solution will draw inspiration from the simplest GPS implementation in [Paradigms of Artificial Intelligence Programming: Case Studies in Common Lisp by Peter Norvig (1992)](https://github.com/norvig/paip-lisp). We shall modify the implementation a bit, to make it more Clojure-like and REPL-friendly.
 
+### Example solution
+
+Try the example GPS program using the (insta-)REPL, or try running the two examples with `clj -m gps.solver` (Linux/Mac) or `lein run` (Windows).
+
 ### Task
 
 Create a new file `src/solver.clj` and write a means-end solver similar to [Norvig's naïve GPS solver](https://github.com/norvig/paip-lisp/blob/master/docs/chapter4.md#43-stage-3-implementation).
